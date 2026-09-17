@@ -74,15 +74,7 @@ The notebook records a validation **ROC-AUC of 0.9944**.
 
 This provides visual insight into which parts of the tissue image the model considers important when predicting the presence of tumor tissue.
 
-## Results
 
-| Metric | Result |
-|---|---:|
-| Validation ROC-AUC | **0.9944** |
-| Image Size | **96 × 96 pixels** |
-| Model | **DenseNet169** |
-| Framework | **FastAI / PyTorch** |
-| Classes | **Negative, Tumor** |
 
 The confusion-matrix analysis also shows a reduction in false-positive predictions after model fine-tuning compared with the earlier model stage.
 
